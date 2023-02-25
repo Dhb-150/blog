@@ -10,7 +10,8 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.minzheng</groupId>
+
+    <groupId>com.bingda</groupId>
     <artifactId>blog-springboot</artifactId>
     <version>0.0.1</version>
     <name>blog</name>
@@ -27,6 +28,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
         </dependency>
+        <!-- 配置处理器 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
